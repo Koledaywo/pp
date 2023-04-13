@@ -1,1 +1,1 @@
-# Данный репозиторий предназначен для ознакомления меня с азами автотестирования на языке Python
+This repository is intended to familiarize me with the basics of autotesting in Python
