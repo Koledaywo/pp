@@ -10,3 +10,6 @@ response = requests.get(url='https://10.3.1.69:5010/login', auth=basic, verify=F
 print(response.text)
 print(dict(response.cookies)) #возвращает куки если не то - {}
 print(response.headers) # возвращает хэдеры
+
+response_get_actoins = requests.get(url="https://10.3.1.69:5010/api/get_actions", auth=basic, verify=False)
+print(response_get_actoins.text)
